@@ -1,0 +1,2 @@
+LiteLED - 1.2.0
+esp32 by Espressif - 2.0.16
