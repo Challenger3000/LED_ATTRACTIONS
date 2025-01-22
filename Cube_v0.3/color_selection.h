@@ -193,9 +193,9 @@ body {
 </head>
 <body>
 <div class="list">
-  <h2>JJ MOD</h2>
+  <h2>Patriks MOD</h2>
   <ul>
-    <a href="/buttons"><li><span>Color selection</span></li></a>
+    <a href="/gay"><li><span>Color selection</span></li></a>
     <a href="/update"><li><span>Firmware update</span></li></a>
   </ul>
 </div>
@@ -483,11 +483,11 @@ const char gayPage[] PROGMEM = R"=====(
         font-size: 18px;
     }
     .slider-container input[type="range"] {
-        width: 70%; /* Sliders take 70% of the screen width */
+        width: 88%; /* Sliders take 70% of the screen width */
         -webkit-appearance: none;
-        height: 16px; /* Increase the height of the slider track */
+        height: 12%; /* Increase the height of the slider track */
         background: #ddd;
-        border-radius: 8px; /* Adjust border-radius for thicker appearance */
+        border-radius: 4%; /* Adjust border-radius for thicker appearance */
         outline: none;
         opacity: 0.9;
         transition: opacity 0.2s;
@@ -535,11 +535,11 @@ const char gayPage[] PROGMEM = R"=====(
     <div class="container">
         <div class="slider-container">
             <label for="speed">SPEED</label>
-            <input id="speed" type="range" min="0" max="100" value="50">
+            <input id="speed" type="range" min="0" max="160" value="40">
         </div>
         <div class="slider-container">
             <label for="density">DENSITY</label>
-            <input id="density" type="range" min="0" max="100" value="75">
+            <input id="density" type="range" min="0" max="240" value="100">
         </div>
         <div class="slider-container">
             <label for="repeat">REPEAT</label>
@@ -559,8 +559,8 @@ const char gayPage[] PROGMEM = R"=====(
     </div>
     <script>
         var sliders = {
-            speed: 50,
-            density: 75,
+            speed: 40,
+            density: 100,
             repeat: 100,
             uniformity: 0,
             brightness: 255
